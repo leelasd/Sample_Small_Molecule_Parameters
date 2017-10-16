@@ -1,0 +1,39 @@
+REMARK LIGPARGEN GENERATED PQR FILE
+ATOM      1  C00 ETB     1       1.000   1.000   0.000 -0.1524 1.9924
+ATOM      2  C01 ETB     1      -0.408   1.000   0.000 -0.1464 1.9924
+ATOM      3  C02 ETB     1      -1.114   1.000   1.219 -0.1437 1.9924
+ATOM      4  C03 ETB     1      -0.412   1.002   2.443 -0.0822 1.9924
+ATOM      5  C04 ETB     1      -1.171   0.996   3.754 -0.1357 1.9643
+ATOM      6  C05 ETB     1      -1.473  -0.414   4.272 -0.2308 1.9643
+ATOM      7  C06 ETB     1       0.998   0.995   2.440 -0.1437 1.9924
+ATOM      8  C07 ETB     1       1.703   0.997   1.221 -0.1464 1.9924
+ATOM      9  H08 ETB     1       1.541   1.000  -0.936  0.1474 1.3582
+ATOM     10  H09 ETB     1      -0.949   0.999  -0.935  0.1477 1.3582
+ATOM     11  H0A ETB     1      -2.194   0.997   1.212  0.1486 1.3582
+ATOM     12  H0B ETB     1      -2.102   1.551   3.628  0.0943 1.4031
+ATOM     13  H0C ETB     1      -0.595   1.548   4.499  0.0943 1.4031
+ATOM     14  H0D ETB     1      -2.077  -0.973   3.556  0.0842 1.4031
+ATOM     15  H0E ETB     1      -2.018  -0.380   5.215  0.0842 1.4031
+ATOM     16  H0F ETB     1      -0.553  -0.976   4.437  0.0842 1.4031
+ATOM     17  H0G ETB     1       1.543   0.988   3.373  0.1486 1.3582
+ATOM     18  H0H ETB     1       2.783   0.994   1.222  0.1477 1.3582
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    4    5 
+CONECT    5    6 
+CONECT    4    7 
+CONECT    1    8 
+CONECT    1    9 
+CONECT    2   10 
+CONECT    3   11 
+CONECT    5   12 
+CONECT    5   13 
+CONECT    6   14 
+CONECT    6   15 
+CONECT    6   16 
+CONECT    7   17 
+CONECT    8   18 
+CONECT    7    8 
+END

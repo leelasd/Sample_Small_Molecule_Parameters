@@ -1,0 +1,22 @@
+#Remarks LigParGen generated for Q (by Leela Dodda)
+
+{MET}
+[ atoms ]
+       1    C00   C800  -0.0433 
+       2    O01   O801  -0.5879 
+       3    H02   H802   0.0747 
+       4    H03   H803   0.0747 
+       5    H04   H804   0.0747 
+       6    H05   H805   0.4073 
+[bonds]
+     O01      C00
+     H02      C00
+     H03      C00
+     H04      C00
+     H05      O01
+[impropers]
+H03   C00   O01   H02 
+H04   C00   O01   H02 
+[charge_groups]
+ C00 O01 H02 H03 H04 H05
+*------------------------------------------------------------------
