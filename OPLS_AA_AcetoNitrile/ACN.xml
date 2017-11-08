@@ -1,0 +1,43 @@
+<ForceField>
+<AtomTypes>
+<Type name="opls_755" class="C755" element="C" mass="12.011000" />
+<Type name="opls_754" class="C754" element="C" mass="12.011000" />
+<Type name="opls_753" class="N753" element="N" mass="14.007000" />
+<Type name="opls_759" class="H759" element="H" mass="1.008000" />
+</AtomTypes>
+<Residues>
+<Residue name="ACN">
+<Atom name="C00" type="opls_754" />
+<Atom name="N01" type="opls_753" />
+<Atom name="C02" type="opls_755" />
+<Atom name="H03" type="opls_759" />
+<Atom name="H04" type="opls_759" />
+<Atom name="H05" type="opls_759" />
+<Bond from="0" to="1"/>
+<Bond from="0" to="2"/>
+<Bond from="2" to="3"/>
+<Bond from="2" to="4"/>
+<Bond from="2" to="5"/>
+</Residue>
+</Residues>
+<HarmonicBondForce>
+<Bond class1="N753" class2="C754" length="0.115700" k="543920.000000"/>
+<Bond class1="C755" class2="C754" length="0.147000" k="326352.000000"/>
+<Bond class1="H759" class2="C755" length="0.109000" k="284512.000000"/>
+<Bond class1="H759" class2="C755" length="0.109000" k="284512.000000"/>
+<Bond class1="H759" class2="C755" length="0.109000" k="284512.000000"/>
+</HarmonicBondForce>
+<HarmonicAngleForce>
+<Angle class1="C754" class2="C755" class3="H759" angle="1.893682" k="292.880000"/>
+<Angle class1="N753" class2="C754" class3="C755" angle="3.139847" k="1255.200000"/>
+<Angle class1="H759" class2="C755" class3="H759" angle="1.881465" k="276.144000"/>
+</HarmonicAngleForce>
+<PeriodicTorsionForce>
+</PeriodicTorsionForce>
+<NonbondedForce coulomb14scale="0.5" lj14scale="0.5">
+<Atom type="opls_753" charge="-0.560000" sigma="0.320000" epsilon="0.711280" />
+<Atom type="opls_755" charge="-0.080000" sigma="0.330000" epsilon="0.276144" />
+<Atom type="opls_754" charge="0.460000" sigma="0.330000" epsilon="0.276144" />
+<Atom type="opls_759" charge="0.060000" sigma="0.250000" epsilon="0.062760" />
+</NonbondedForce>
+</ForceField>
